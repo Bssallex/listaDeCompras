@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Itens da Lista</title>
+    <link rel="stylesheet" href="lista.css">
+</head>
+
+<body onload="renderizarLista(); pegarNomeDoProduto(); calcularTotal();">
+    <div class="container-right">
+        <h3>ITENS DA LISTA:</h3>
+        <p id="total"></p>
+        <div id="listaCarrinho"></div><br />
+        <label for="remover">Remover:</label>
+        <select id="removerItem"></select>
+        <div class="button-group">
+            <button onclick="removerUmItem()">Remover Item</button>
+            <button onclick="limparLista()">Limpar Lista</button>
+        </div>
+        <br /><br />
+        <a href="index.html" style="color: #4da6ff; margin-top: 10px;">Voltar para adicionar itens</a>
+    </div>
+
+    <script src="listaDeCompras.js"></script>
+</body>
+
+</html>
