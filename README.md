@@ -4,12 +4,12 @@ Esse projeto foi construído em conjunto de IAs (GEMINI e CHATGPT). O front-end 
 
 ## ⚙️ FUNCIONALIDADES
 
-- ❌ Não permite salvar nomes de produtos repetidos  
+- ❌ Não permite armazenar produtos repetidos  
 - ⚠️ Não permite adicionar um produto se algum campo estiver vazio  
-- 💰 O preço já é convertido automaticamente para o padrão brasileiro (R$)  
+- 💰 O preço é convertido automaticamente para o padrão brasileiro (R$)
 - 🔄 Permite sair e atualizar a página sem perder ou alterar os dados que já estão armazenados  
-- ➕➖ Faz o calculo do preço automaticamente (soma ou subtração)  
-- 🧺 Armazena os produtos num campo de seleção, permitindo a remoção de forma dinâmica  
+- ➕➖ Faz o calculo do preço automaticamente (soma e subtração)  
+- 🧺 Armazena os produtos em um campo de seleção, permitindo a remoção de forma dinâmica
 
 ## 🌟 PONTOS DE DESTAQUE
 
